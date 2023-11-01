@@ -18,15 +18,19 @@
 }
 
 body {
-    background: burlywood;
     display: flex;
     align-items: center;
     justify-content: center; 
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/Order-summary-component-Frontend-master/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
     
 }
 
 .container {
-    margin-top: 50px;
     width: 300px;
     height: 500px;
     background: aliceblue;
